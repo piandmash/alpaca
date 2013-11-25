@@ -1,0 +1,24 @@
+{
+	"name": "alpaca"
+    ,"description": "Alpaca clone"
+    , "version": "0.1.0"
+	, "maintainers": [
+		{ "name": "Pete Cleary"	}
+	]
+    ,"repository" : {
+        "type" : "git",
+        "url" : "http://github.com/piandmash/alpaca.git"
+    }
+    ,"bugs" : {
+        "url" : "http://github.com/piandmash/alpaca/issues"
+    }
+    , "dependencies": {
+    }
+    , "devDependencies": {
+        "grunt": "latest"
+        , "grunt-contrib-uglify": "latest"
+    }
+    , "scripts": {
+        "grunt": "node node_modules\\.bin\\grunt"
+    }
+}
